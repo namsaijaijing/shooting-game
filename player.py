@@ -10,6 +10,9 @@ class Player():
         self.speed = 200
         self.fired = False
         self.start_time = pygame.time.get_ticks()
+        
+        self.health = 3
+        self.score = 0
 
 
     def draw(self,screen):
